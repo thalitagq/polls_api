@@ -4,6 +4,8 @@
 - Docker
 - Prisma
 - Zod
+- Redis
+- Fastify Websocket
 
 ### Obs: 
 tsconfig.json was configured according to node version used for this project (v18.12.1) which was obtained

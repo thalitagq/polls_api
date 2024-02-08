@@ -23,6 +23,7 @@ model PollOption {
   id String @id @default(uuid())
   title String
   pollId String
+  votesAmount Int
 
   poll Poll @relation(fields: [pollId], references: [id])
   votes Vote[]
